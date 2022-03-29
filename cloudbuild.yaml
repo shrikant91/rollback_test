@@ -4,6 +4,6 @@ steps:
 
 ## step 2 ##
 - name: 'gcr.io/cloud-builders/gsutil'
-  args: ['sh', './rollback.sh']
+  args: ['bash', './rollback.sh']
 
 timeout: 50000s
