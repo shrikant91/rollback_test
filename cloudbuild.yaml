@@ -5,6 +5,6 @@ steps:
   - -c
   - |
     echo "file coping started"
-    cp ./*.txt gs://cicd-pipeline-test-bkt/
+    cp ./*.txt gs://cicd-pipeline-test-bkt/test/
 
 timeout: 50000s
