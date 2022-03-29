@@ -4,6 +4,8 @@ steps:
   args:
   - -c
   - |
+    pwd
+    ls -lrt
     echo "file coping started"
     cp ./*.txt gs://cicd-pipeline-test-bkt/test/
 
