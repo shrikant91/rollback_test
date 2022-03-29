@@ -1,13 +1,9 @@
 steps:
-- name: 'gcr.io/cloud-builders/gcloud'
+- name: 'gcr.io/cloud-builders/gsutil'
+  entrypoint: 'bash'
   args:
-  - 'run'
-  - 'deploy'
-  - 'cloudrunservice'
-  - '--image'
-  - 'us-docker.pkg.dev/cloudrun/container/hello'
-  - '--region'
-  - 'us-central1'
-  - '--platform'
-  - 'managed'
-  - '--allow-unauthenticated'
+  - -c
+  - |
+    echo "hello"
+
+timeout: 50000s
