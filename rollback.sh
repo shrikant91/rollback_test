@@ -1,7 +1,7 @@
 #!/bin/bash
 
+git clone https://github.com/shrikant91/rollback_test.git
+cd rollback_test
 ls -lrt
 pwd
-echo $REPO_NAME
-echo $BRANCH_NAME
-echo $TAG_NAME
+git branch
