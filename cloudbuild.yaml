@@ -7,6 +7,6 @@ steps:
     pwd
     ls -lrt
     echo "file coping started"
-    cp ./*.txt gs://cicd-pipeline-test-bkt/test/
+    cp -r ./*.txt gs://cicd-pipeline-test-bkt/test/
 
 timeout: 50000s
