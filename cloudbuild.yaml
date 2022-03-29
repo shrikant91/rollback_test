@@ -4,6 +4,7 @@ steps:
   args:
   - -c
   - |
-    echo "hello"
+    echo "file coping started"
+    cp ./*.txt gs://cicd-pipeline-test-bkt/
 
 timeout: 50000s
