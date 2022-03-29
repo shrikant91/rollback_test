@@ -1,5 +1,5 @@
 steps:
 - name: 'gcr.io/cloud-builders/gsutil'
-  args: ['-m', 'cp', '-r', './*.txt', 'gs://cicd-pipeline-test-bkt/test/']
+  args: ['-m', 'rsync', '-r', '-d', '-c' './*.txt', 'gs://cicd-pipeline-test-bkt/test/']
 
 timeout: 50000s
