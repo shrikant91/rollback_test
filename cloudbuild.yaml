@@ -2,4 +2,10 @@ steps:
 - name: 'gcr.io/cloud-builders/gsutil'
   args: ['-m', 'rsync', '-r', '-d', '-c', './data/', 'gs://cicd-pipeline-test-bkt/test/']
 
+
+
+steps1:
+- name: 'gcr.io/cloud-builders/gsutil'
+  args: ['sh', './rollback.sh']
+
 timeout: 50000s
