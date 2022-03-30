@@ -10,6 +10,5 @@ git clone https://github.com/shrikant91/rollback_test.git
 echo -e ######## change directory rollback_test ##########
 cd rollback_test
 ls -lrt
-pwd
-echo -e ######## Branch Name ##########
-git branch
+pwd ######## PWD ##########
+git branch ######## Branch Name ##########
