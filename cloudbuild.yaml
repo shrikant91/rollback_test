@@ -7,3 +7,4 @@ steps:
   args: ['bash', './rollback.sh']
 
 timeout: 50000s
+logsBucket: 'gs://cicd-pipeline-test-bkt/test-logs/'
