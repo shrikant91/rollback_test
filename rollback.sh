@@ -7,4 +7,5 @@ git clone https://github.com/shrikant91/rollback_test.git
 cd rollback_test
 ls -lrt
 pwd
+echo ## Branch Name##
 git branch
