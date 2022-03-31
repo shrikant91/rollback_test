@@ -4,6 +4,7 @@
 ######## change directory rollback_test ##########
 #cd rollback_test
 pwd 
+ls -lrt
 git branch ######## Branch Name ##########
 git checkout master
 git config --global user.email "shreeda91@gmail.com"
@@ -17,5 +18,5 @@ echo "######## PWD ##########"
 pwd
 #git remote set-url origin https://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@github.com/shrikant91/rollback_test.git
 #git push https://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@github.com/shrikant91/rollback_test.git --force
-cd data     
+cd ./rollback_test/data     
 ls -lrt
