@@ -11,6 +11,7 @@ git config --global user.name "shrikant91"
 git fetch
 echo $1
 git revert $1
-git push https://shrikant91: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@github.com/shrikant91/rollback_test.git --force
+git remote set-url origin https://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@github.com/shrikant91/rollback_test.git
+git push https://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@github.com/shrikant91/rollback_test.git --force
 cd data     
 ls -lrt
