@@ -17,7 +17,7 @@ git config --global user.name "shrikant91"
 #git fetch
 echo $1
 git revert $1 
-git remote set-url origin https://shrikant91:Shreeda123456789@github.com/shrikant91/rollback_test.git
+git remote set-url origin https://shrikant91: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@github.com/shrikant91/rollback_test.git
 git push origin --force
 echo "push force ############"
 #git push --set-upstream origin master
