@@ -16,10 +16,11 @@ git checkout master
 git pull origin master
 git config --global user.email "shreeda91@gmail.com"
 git config --global user.name "shrikant91"
+git config user.password "Shreeda123456789"
 #git fetch
 echo $1
 git revert $1
-git config --system --unset credential.helper
+#git config --system --unset credential.helper
 git remote set-url origin https://shrikant91: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@github.com/shrikant91/rollback_test.git
 git config --list 
 git push --force
