@@ -3,12 +3,12 @@ steps:
   args: ['-m', 'rsync', '-r', '-d', '-c', './data/', 'gs://cicd-pipeline-test-bkt/test/']
 
 ### step 2 ##
-  - name: gcr.io/cloud-builders/gcloud
-    entrypoint: 'sh'
-    args:
-    - -c
-    - |
-       sh ./rollback.sh ${_COMMITID}
+- name: gcr.io/cloud-builders/gcloud
+  entrypoint: 'sh'
+  args:
+  - '-c'
+  - |
+      sh ./rollback.sh ${_COMMITID}
 
 timeout: 50000s
 logsBucket: 'gs://cicd-pipeline-test-bkt/test-logs/'
