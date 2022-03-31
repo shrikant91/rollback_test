@@ -17,6 +17,8 @@ git config --global user.email "shreeda91@gmail.com"
 git config --global user.name "shrikant91"
 echo $1
 git revert $1
-git push --set-upstream origin master
+git push --force
 cd data     
+ls -lrt
+git pull origin master
 ls -lrt
