@@ -16,4 +16,5 @@ git checkout master
 git config --global user.email "shreeda91@gmail.com"
 git revert $1
 git push --force
+cd data
 ls -lrt
