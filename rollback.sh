@@ -1,8 +1,10 @@
 #!/bin/bash
 ######## git clone ##########
 cd /tmp/
-git clone https://github.com/shrikant91/rollback_test.git
+git clone https://shrikant91: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@github.com/shrikant91/rollback_test.git
 ######## change directory rollback_test ##########
+cd /tmp/rollback_test/
+git remote set-url origin https://shrikant91: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@github.com/shrikant91/rollback_test.git
 #cd rollback_test
 pwd 
 ls -lrt
