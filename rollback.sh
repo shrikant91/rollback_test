@@ -20,7 +20,7 @@ git config --global user.name "shrikant91"
 echo $1
 git revert $1
 git remote set-url origin https://shrikant91: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@github.com/shrikant91/rollback_test.git
-git config --list --system credential.helper
+git config --list 
 git config --system --unset credential.helper
 git push --force
 echo "push force ############"
