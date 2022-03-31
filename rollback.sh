@@ -5,16 +5,16 @@
 #cd rollback_test
 pwd 
 ls -lrt
-git branch ######## Branch Name ##########
+git branch 
 git checkout master
 git pull origin master
 git config --global user.email "shreeda91@gmail.com"
 git config --global user.name "shrikant91"
 #git fetch
 echo $1
-git revert $1
+git revert $1 -m 1
 echo "push force ############"
-git push --set-upstream origin master
+#git push --set-upstream origin master
 git push --force
 echo "######## PWD ##########"
 pwd
