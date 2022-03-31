@@ -6,7 +6,7 @@ apt install git -y
 ######## git version ##########
 git --version
 ######## git clone ##########
-git clone https://"'shrikant91':'Shreeda#4321'"@github.com/shrikant91/rollback_test.git
+git clone https://"shrikant91:Shreeda#4321"@github.com/shrikant91/rollback_test.git
 ######## change directory rollback_test ##########
 cd rollback_test
 ls -lrt
