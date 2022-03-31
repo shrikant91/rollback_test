@@ -12,7 +12,7 @@ git config --global user.email "shreeda91@gmail.com"
 git config --global user.name "shrikant91"
 #git fetch
 echo $1
-git revert $1 -m 1
+git revert $1 --rerere-autoupdate
 echo "push force ############"
 #git push --set-upstream origin master
 git push --force
