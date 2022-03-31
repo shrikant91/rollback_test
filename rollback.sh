@@ -2,11 +2,11 @@
 ######## git clone ##########
 cd /tmp/
 
-git clone https://shrikant91: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@github.com/shrikant91/rollback_test.git
+git clone https://`shreeda91@gmail.com`:`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`@github.com/shrikant91/rollback_test.git
 ######## change directory rollback_test ##########
 cd /tmp/rollback_test/
 #git config credential.helper store
-git remote set-url origin https://shrikant91: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@github.com/shrikant91/rollback_test.git
+git remote set-url origin https://`shreeda91@gmail.com`:`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`@github.com/shrikant91/rollback_test.git
 #cd rollback_test
 pwd 
 ls -lrt
@@ -19,7 +19,7 @@ git config --global user.name "shrikant91"
 #git fetch
 echo $1
 git revert $1
-git remote set-url origin https://shrikant91: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@github.com/shrikant91/rollback_test.git
+git remote set-url origin https://`shreeda91@gmail.com`:`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`@github.com/shrikant91/rollback_test.git
 git config --list 
 git config --system --unset credential.helper
 git push --force
