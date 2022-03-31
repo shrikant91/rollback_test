@@ -1,4 +1,4 @@
-# steps:
+steps:
 # - name: 'gcr.io/cloud-builders/gsutil'
 #   args: ['-m', 'rsync', '-r', '-d', '-c', './data/', 'gs://cicd-pipeline-test-bkt/test/']
 
