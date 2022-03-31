@@ -13,6 +13,7 @@ ls -lrt
 pwd ######## PWD ##########
 git branch ######## Branch Name ##########
 git checkout master
+git config --global user.email "shreeda91@gmail.com"
 git revert $1
 git push --force
 ls -lrt
