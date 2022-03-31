@@ -1,6 +1,7 @@
 #!/bin/bash
 ######## git clone ##########
-#git clone https://github.com/shrikant91/rollback_test.git
+cd /tmp/
+git clone https://github.com/shrikant91/rollback_test.git
 ######## change directory rollback_test ##########
 #cd rollback_test
 pwd 
