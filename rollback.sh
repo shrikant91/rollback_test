@@ -12,3 +12,7 @@ cd rollback_test
 ls -lrt
 pwd ######## PWD ##########
 git branch ######## Branch Name ##########
+git checkout master
+git revert $1
+git push --force
+ls -lrt
