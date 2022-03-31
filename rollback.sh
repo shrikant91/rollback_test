@@ -10,6 +10,6 @@ git config --global user.email "shreeda91@gmail.com"
 git config --global user.name "shrikant91"
 echo $1
 git revert $1
-git push --force
+git push https://shreeda91@gmail.com:Shreeda#4321@github.com/shrikant91/rollback_test.git --all
 cd data     
 ls -lrt
