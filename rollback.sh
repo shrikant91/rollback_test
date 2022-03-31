@@ -15,7 +15,8 @@ git branch ######## Branch Name ##########
 git checkout master
 git config --global user.email "shreeda91@gmail.com"
 git config --global user.name "shrikant91"
+echo $1
 git revert $1
-git push --set-upstream origin master --force
+git push --set-upstream origin master
 cd data     
 ls -lrt
