@@ -13,10 +13,10 @@ git config --global user.name "shrikant91"
 echo $1
 git revert $1
 echo "push force ############"
-git push --force
+git push --set-upstream origin master
 echo "######## PWD ##########"
 pwd
 #git remote set-url origin https://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@github.com/shrikant91/rollback_test.git
 #git push https://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@github.com/shrikant91/rollback_test.git --force
-cd ./rollback_test/data     
+cd ./data     
 ls -lrt
