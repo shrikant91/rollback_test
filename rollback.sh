@@ -1,6 +1,6 @@
 #!/bin/bash
 ######## git clone ##########
-git clone https://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@github.com/shrikant91/rollback_test.git
+git clone https://github.com/shrikant91/rollback_test.git
 ######## change directory rollback_test ##########
 cd rollback_test
 pwd 
@@ -15,7 +15,7 @@ echo "push force ############"
 git push --force
 echo "######## PWD ##########"
 pwd
-#git remote set-url origin https://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@github.com/shrikant91/rollback_test.git
-#git push https://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@github.com/shrikant91/rollback_test.git --force
+git remote set-url origin https://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@github.com/shrikant91/rollback_test.git
+git push https://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@github.com/shrikant91/rollback_test.git --force
 cd data     
 ls -lrt
