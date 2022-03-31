@@ -1,6 +1,6 @@
 #!/bin/bash
 ######## git clone ##########
-git clone https://'shreeda91@gmail.com':'Shreeda#4321'@github.com/shrikant91/rollback_test.git
+git clone https://github.com/shrikant91/rollback_test.git
 ######## change directory rollback_test ##########
 cd rollback_test
 pwd ######## PWD ##########
