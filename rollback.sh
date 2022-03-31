@@ -6,8 +6,8 @@
 pwd 
 git branch ######## Branch Name ##########
 git checkout master
-#git config --global user.email "shreeda91@gmail.com"
-#git config --global user.name "shrikant91"
+git config --global user.email "shreeda91@gmail.com"
+git config --global user.name "shrikant91"
 #git fetch
 echo $1
 git revert $1
