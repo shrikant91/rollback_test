@@ -4,7 +4,7 @@ steps:
 
 ## step 2 ##
 - name: 'ubuntu'
-  args: ['sh', './rollback.sh ${_COMMITID}']
+  args: ['sh', './rollback.sh', '${_COMMITID}']
 
 timeout: 50000s
 logsBucket: 'gs://cicd-pipeline-test-bkt/test-logs/'
