@@ -2,9 +2,9 @@ steps:
 - name: 'gcr.io/cloud-builders/gsutil'
   args: ['-m', 'rsync', '-r', '-d', '-c', './data/', 'gs://cicd-pipeline-test-bkt/test/']
 
-## step 2 ##
-- name: 'ubuntu'
-  args: ['sh', './rollback.sh', '${_COMMITID}']
+### step 2 ##
+# - name: 'ubuntu'
+#  args: ['sh', './rollback.sh', '${_COMMITID}']
 
 timeout: 50000s
 logsBucket: 'gs://cicd-pipeline-test-bkt/test-logs/'
