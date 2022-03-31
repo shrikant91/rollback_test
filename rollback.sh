@@ -6,6 +6,7 @@ git clone https://github.com/shrikant91/rollback_test.git
 #cd rollback_test
 pwd 
 ls -lrt
+cd /tmp/rollback_test/
 git branch 
 git checkout master
 git pull origin master
