@@ -6,7 +6,7 @@ apt install git -y
 ######## git version ##########
 git --version
 ######## git clone ##########
-git clone https://'shrikant91:Shreeda#4321'@github.com/shrikant91/rollback_test.git
+git clone https://"'shrikant91':'Shreeda#4321'"@github.com/shrikant91/rollback_test.git
 ######## change directory rollback_test ##########
 cd rollback_test
 ls -lrt
@@ -16,6 +16,6 @@ git checkout master
 git config --global user.email "shreeda91@gmail.com"
 git config --global user.name "shrikant91"
 git revert $1
-git push --force
+git push --set-upstream origin master --force
 cd data     
 ls -lrt
