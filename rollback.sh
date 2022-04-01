@@ -2,13 +2,15 @@
 ######## git clone ##########
 cd /tmp/
 
-git clone https://shrikant91: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@github.com/shrikant91/rollback_test.git
+git clone https://github.com/shrikant91/rollback_test.git
 ######## change directory rollback_test ##########
 cd /tmp/rollback_test/
 #git config credential.helper store
 #git remote set-url origin https://shrikant91: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@github.com/shrikant91/rollback_test.git
 #cd rollback_test
-git config --system --unset credential.helper
+git config --unset-all credential.helper
+git config --global --unset-all credential.helper
+git config --system --unset-all credential.helper
 pwd 
 ls -lrt
 cd /tmp/rollback_test/
