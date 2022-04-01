@@ -8,7 +8,7 @@ cd /tmp/rollback_test/
 #git config credential.helper store
 #git remote set-url origin https://shrikant91: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@github.com/shrikant91/rollback_test.git
 #cd rollback_test
-git config --system --unset credential.helper
+#git config --system --unset credential.helper
 pwd 
 ls -lrt
 cd /tmp/rollback_test/
