@@ -21,7 +21,7 @@ git config --global credential.helper store
 git config --global user.email "shreeda91@gmail.com"
 git config --global user.name "shrikant91"
 git config --global user.password "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"
-git push  https://shrikant91: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@github.com/shrikant91/rollback_test.git
+git push https://`shrikant91`:`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`@github.com/shrikant91/rollback_test.git
 
 #git fetch
 cd /tmp/rollback_test/
