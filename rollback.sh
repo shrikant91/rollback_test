@@ -26,7 +26,7 @@ git push  https://shrikant91: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@github.com
 #git fetch
 cd /tmp/rollback_test/
 echo $1
-git revert $1
+git revert -m 1 $1
 cd /tmp/rollback_test/
 git config --list 
 cd /tmp/rollback_test/
