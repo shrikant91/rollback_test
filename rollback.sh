@@ -30,7 +30,6 @@ git config --list
 echo $1
 git revert -m 1 $1
 echo "push force ############"
-
 git push --force
 echo "######## PWD ##########"
 pwd
